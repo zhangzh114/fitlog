@@ -1,0 +1,22 @@
+# ---------- Python ----------
+# 虚拟环境：别人用 requirements.txt 重装，不需要提交（几万个文件）
+backend/venv/
+# Python 运行缓存
+__pycache__/
+*.pyc
+# 环境配置：含数据库密码，绝不能提交！
+backend/.env
+
+# ---------- Node / 前端 ----------
+# 依赖包：npm install 就能装回来
+web/node_modules/
+# 构建产物：npm run build 生成
+web/dist/
+# uni-app 编译产物（以后加小程序版会有）
+unpackage/
+# npm 缓存
+.npm-cache/
+
+# ---------- 其他 ----------
+.DS_Store
+*.log
